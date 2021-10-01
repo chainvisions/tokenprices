@@ -1,6 +1,11 @@
 # tokenprices
 A simple and easy library to fetch token prices on-chain.
 
+Powered by Ethers.js.
+```
+npm install tokenprices
+```
+
 ## Usage
 Using tokenprices is quite simple:
 ```
