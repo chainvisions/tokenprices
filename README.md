@@ -38,3 +38,6 @@ getPrices();
 Tokenprices supports the following networks and price sources:
 - Polygon Mainnet (Chainlink, Gravity, Sushiswap, Quickswap, and Apeswap)
 - Fantom Opera (Chainlink, Spookyswap, Sushiswap, and Spiritswap)
+
+## Support
+If you encounter any issues whilst using this library, you can join our [Discord server to ask for help](https://discord.gg/FjBxJEaxSa).
