@@ -1,5 +1,5 @@
 export const oracleByChainId: any = {
-    137: '0x51fB3458Aec9Fa2a439eac343a2ff661041B464e',
+    137: '0x8CC3Cb5042E1fD283375c3cE549e3c4B12FF17DC',
     250: '0x14AB9b3008D41b941092BfE7e5109f6456de27aC'
 }
 
