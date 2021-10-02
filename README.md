@@ -35,5 +35,5 @@ getPrices();
 ```
 
 ## Supported Networks
-Tokenprices supports the following networks and AMMs:
-- Polygon Mainnet (Gravity, Sushiswap, and Quickswap)
+Tokenprices supports the following networks and price sources:
+- Polygon Mainnet (Chainlink, Gravity, Sushiswap, and Quickswap)

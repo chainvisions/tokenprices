@@ -25,6 +25,11 @@ export class TokenPrices {
 
     // Interactions
 
+    /**
+     * Fetches the price of a specified token.
+     * @param token Token to fetch the price of.
+     * @returns The price of the token as a BigNumber. (In 1e18 format)
+     */
     async fetchPrice(token: string): Promise<BigNumber> {
         let price
         try {
