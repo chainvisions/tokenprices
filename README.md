@@ -9,7 +9,7 @@ npm install tokenprices
 ## Usage
 Using tokenprices is quite simple:
 ```
-<TokenPrices>.fetchPrice(<TOKEN ADDRESS> || <TokenPrices>.tokenlist.<TOKEN NAME>) // This will return the price of the token in a BigNumber. (1e18 format)
+<TokenPrices>.fetchPrice(<TOKEN ADDRESS> || <TokenPrices>.tokenlist.<TOKEN NAME>)
 ```
 
 ## Example
@@ -27,8 +27,8 @@ const getPrices = async () => {
     const wmaticPrice = await tokenprices.fetchPrice(tokenprices.tokenlist.WMATIC);
     const belugaPrice = await tokenprices.fetchPrice(tokenprices.tokenlist.BELUGA);
 
-    console.log(`WMATIC price:`, wmaticPrice / 1e18);
-    console.log(`BELUGA price:`, belugaPrice / 1e18);
+    console.log("WMATIC price:", wmaticPrice / 1e18);
+    console.log("BELUGA price:", belugaPrice / 1e18);
 }
 
 getPrices();
@@ -36,4 +36,5 @@ getPrices();
 
 ## Supported Networks
 Tokenprices supports the following networks and price sources:
-- Polygon Mainnet (Chainlink, Gravity, Sushiswap, and Quickswap)
+- Polygon Mainnet (Chainlink, Gravity, Sushiswap, Quickswap, and Apeswap)
+- Fantom Opera (Chainlink, Spookyswap, Sushiswap, and Spiritswap)
